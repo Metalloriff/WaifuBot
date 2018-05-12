@@ -9,7 +9,7 @@ client.on("message", async message => {
 
     if(message.author.bot) return;
 
-    var lowercase = message.content.toLowerCase(), words = lowercase.split(" "), isSenpai = message.author.id == "275110178628698112", message = new Array();
+    var lowercase = message.content.toLowerCase(), words = lowercase.split(" "), isSenpai = message.author.id == "275110178628698112", messages = new Array();
 
     if(isSenpai) {
 
