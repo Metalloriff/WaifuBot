@@ -1,0 +1,13 @@
+{
+  "name": "WaifuBot",
+  "description": "",
+  "version": "0.0.0",
+  "main": "waifu-bot.js",
+  "scripts": {
+    "start": "node waifu-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.3.0",
+    "request": "2.81.0"
+  }
+}
