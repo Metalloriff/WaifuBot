@@ -21,7 +21,7 @@ client.on("message", async message => {
 
     }
 
-    if(message.isMentioned) messages.push("Don't poke me there :v");
+    if(message.mentions.users.keyArray().includes("444980191370936320")) messages.push("Don't poke me there :v");
 
     if(Math.random() > 0.95) messages.push(randomPhrases[randomPhrases.length * Math.random() << 0]);
     
