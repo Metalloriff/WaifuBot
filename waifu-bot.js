@@ -47,7 +47,7 @@ client.on("message", async message => {
 
     if(lowercase.includes("911")) message.channel.send({ files : ["https://cdn.discordapp.com/attachments/287694673999298560/444976762355580939/Pnmeogy.jpg"] });
 
-    if(lowercase.includes("lol") || lowercase.includes("lmao") || lowercase.includes("ha")) messages.push(":TooHard:");
+    if(lowercase.includes("lol") || lowercase.includes("lmao") || lowercase.includes("ha")) messages.push("<:TooHard:445790272509444097>");
 
     if(lowercase.includes("wtf") || lowercase.includes("wth") || lowercase.includes("wtaf")) message.channel.send({ files : ["https://cdn.discordapp.com/attachments/287694673999298560/444977766681673728/32283729_572200469832136_2120318018507505664_n.jpg"] });
 
