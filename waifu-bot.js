@@ -25,6 +25,8 @@ client.on("message", async message => {
 
     if(Math.random() > 0.95) messages.push(randomPhrases[randomPhrases.length * Math.random() << 0]);
     
+    if(Math.random() > 0.2) return;
+    
     if(lowercase.includes("frick")) messages.push("nuuuu language! >n<");
 
     if(lowercase.includes("fight")) messages.push("OwO You'll have to fight me first ୧( •̀ 口 •́ )୨");
